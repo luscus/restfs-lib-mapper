@@ -1,0 +1,38 @@
+{
+  "name": "restfs-lib-mapper",
+  "license": "MIT",
+  "version": "0.0.1",
+  "homepage": "https://github.com/luscus/restfs-lib-mapper",
+  "author": "https://github.com/luscus/restfs-lib-mapper/graphs/contributors",
+  "description": "Maps a provided API File Structure and register all its routes and their options",
+  "keywords": [
+    "restfs",
+    "lib",
+    "api",
+    "mapper"
+  ],
+  "dependencies": {
+    "fs-crawler": "^0",
+    "merge": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jsdoc-to-markdown": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.6",
+    "gulpfile.basics": "^0",
+    "mocha": "^2.3.4",
+    "pem": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luscus/restfs-lib-mapper.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "bugs": "https://github.com/luscus/restfs-lib-mapper/issues",
+  "main": "./lib/restfs-lib-mapper.js"
+}
