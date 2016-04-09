@@ -10,7 +10,7 @@
 [![David](https://img.shields.io/david/dev/luscus/restfs-lib-mapper.svg?style=flat)](https://david-dm.org/luscus/restfs-lib-mapper#info=devDependencies)
 
 
-[RESTfs](https://github.com/luscus/restfs) is an REST Service and the provided APIs are structured using the file system.
+[RESTfs](https://github.com/luscus/restfs) is an REST Service loading API Modules (such as [restfs-api-identity](https://github.com/luscus/restfs-api-identity)) from the file system.
 
 This library crawls and map a provided API File Structure and register all its routes and their options
 
